@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <title>home | Abderrahmane BENNACEUR</title>
+  </head>
+  <body>
+
+    <!-- page loader start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- page loader end -->
+
+    <!-- background circles start -->
+    <div class="bg-circles">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+    <!-- background circles end -->
+
+    <!-- overlay start -->
+    <div class="overlay"></div>
+    <!-- overlay end -->
+
+    <!-- main start -->
+    <main class="main hidden">
+      <!-- header start -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">home</a></li>
+                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                  <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+
+      <!-- home section start -->
+      <section class="home align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>hello, i'm</p>
+              <h1>Abderrahmane bennaceur</h1>
+              <h2>junior web developer</h2>
+              <a href="#about" class="btn link-item">more about me</a>
+              <a href="#portfolio" class="btn link-item">portfolio</a>
+            </div> <!-- ./home-text -->
+            <div class="home-img">
+              <div class="img-box">
+                <img src="./images/profile.png" alt="profile-img" />
+              </div> <!-- ./img-box -->
+            </div> <!-- ./home-img -->
+          </div> <!-- ./row -->
+        </div> <!-- ./container -->
+      </section>
+      <!-- home section end -->
+
+      <!-- about section start -->
+      <section class="about sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>about me</h2>
+            </div> <!-- ./section-title -->
+          </div> <!-- ./row -->
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="./images/about-img.jpg" alt="about-img" />
+              </div> <!-- ./img-box -->
+            </div> <!-- ./about-img -->
+            <div class="about-text">
+              <p>
+                Hi, i'am Abderrahmane, from Mostaganem, Algeria.
+I enjoy taking comlex problems and turning them into simple and beautiful interface designs.
+I also love the logic and structure of coding. when i'm not coding, you'll find me in the gym.
+              </p>
+              <h3>skills</h3>
+              <div class="skills">
+                <div class="skill-item">html</div>
+                <div class="skill-item">css</div>
+                <div class="skill-item">javascript</div>
+                <div class="skill-item">php</div>
+                <div class="skill-item">mysql</div>
+              </div> <!-- ./skills -->
+              <div class="about-tabs">
+                <button type="button" class="tab-item active" data-target="#education">education</button>
+                <button type="button" class="tab-item" data-target="#experience">experience</button>
+              </div> <!-- ./about-tabs -->
+              <!-- education start -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">18 april, 2018</span>
+                    <h4>html fundamentals course - <span>sololearn</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quae molestiae quos animi, voluptates ratione!</p>
+                  </div> <!-- ./timeline-item -->
+                  <div class="timeline-item">
+                    <span class="date">19 july, 2018</span>
+                    <h4>css fundamentals course - <span>sololearn</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quae molestiae quos animi, voluptates ratione!</p>
+                  </div> <!-- ./timeline-item -->
+                  <div class="timeline-item">
+                    <span class="date">february 2019</span>
+                    <h4>front end developer track - <span>udacity</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quae molestiae quos animi, voluptates ratione!</p>
+                  </div> <!-- ./timeline-item -->
+                  <div class="timeline-item">
+                    <span class="date">2019 - 2022</span>
+                    <h4>web developer and multimedia - <span>INSFP Mostaganem</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quae molestiae quos animi, voluptates ratione!</p>
+                  </div> <!-- ./timeline-item -->
+                </div> <!-- ./timeline -->
+              </div> <!-- ./tab-content -->
+              <!-- education end -->
+              <!-- experience start -->
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">27 march, 2022 - 26 august, 2022</span>
+                    <h4>internship - <span>hyproc</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quae molestiae quos animi, voluptates ratione!</p>
+                  </div> <!-- ./timeline-item -->
+                </div> <!-- ./timeline -->
+              </div> <!-- ./tab-content -->
+              <!-- experience end -->
+              <a href="cv.pdf" target="_blank" class="btn link-item">download cv</a>
+              <a href="#contact" class="btn link-item">contact me</a>
+            </div> <!-- ./about-text -->
+          </div> <!-- ./row -->
+        </div> <!-- ./container -->
+      </section>
+      <!-- about section end -->
+
+      <!-- portfolio section start -->
+      <section class="portfolio sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>recent work</h2>
+            </div> <!-- ./section-title -->
+          </div> <!-- ./row -->
+          <div class="row">
+             <!-- portfolio item start -->
+             <div class="portfolio-item">
+               <div class="portfolio-item-thumbnail">
+                 <img src="./images/portfolio/1.png" alt="portfolio item thumb">
+               </div> <!-- ./portfolio-item-thumbnail -->
+               <h3 class="portfolio-item-title">fennec dev website</h3>
+               <button type="button" class="btn view-project-btn">view project</button>
+               <div class="portfolio-item-details">
+                 <div class="description">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eos ipsum sequi ab repudiandae perferendis ipsam facere consequatur voluptatem repellendus assumenda, pariatur itaque labore obcaecati. Dignissimos eos ipsam vel repudiandae quam dolorum, tempora odit error quae, fuga illum sequi ad quas quaerat esse aspernatur, magnam illo. Minus dolor dolorum nemo.</p>
+                 </div> <!-- ./description -->
+                 <div class="general-info">
+                   <ul>
+                     <li>created - <span>4 dec 20</span></li>
+                     <li>technologies used - <span>html, css, javascript</span></li>
+                     <li>role - <span>frontend</span></li>
+                     <li>view online - <span><a href="#" target="_blank">demo</a></span></li>
+                   </ul>
+                  </div> <!-- ./general-info -->
+                </div> <!-- ./portfolio-item-details -->
+             </div> <!-- ./portfolio-item -->
+             <!-- portfolio item end -->
+             <!-- portfolio item start -->
+             <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/portfolio/2.png" alt="portfolio item thumb">
+              </div> <!-- ./portfolio-item-thumbnail -->
+              <h3 class="portfolio-item-title">chemlabs website</h3>
+              <button type="button" class="btn view-project-btn">view project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eos ipsum sequi ab repudiandae perferendis ipsam facere consequatur voluptatem repellendus assumenda, pariatur itaque labore obcaecati. Dignissimos eos ipsam vel repudiandae quam dolorum, tempora odit error quae, fuga illum sequi ad quas quaerat esse aspernatur, magnam illo. Minus dolor dolorum nemo.</p>
+                </div> <!-- ./description -->
+                <div class="general-info">
+                  <ul>
+                    <li>created - <span>5 dec 20</span></li>
+                    <li>technologies used - <span>html, css, javascript</span></li>
+                    <li>role - <span>frontend</span></li>
+                    <li>view online - <span><a href="#" target="_blank">demo</a></span></li>
+                  </ul>
+                </div> <!-- ./general-info -->
+              </div> <!-- ./portfolio-item-details -->
+            </div> <!-- ./portfolio-item -->
+            <!-- portfolio item end -->
+             <!-- portfolio item start -->
+             <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/portfolio/3.png" alt="portfolio item thumb">
+              </div> <!-- ./portfolio-item-thumbnail -->
+              <h3 class="portfolio-item-title">noon school website</h3>
+              <button type="button" class="btn view-project-btn">view project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eos ipsum sequi ab repudiandae perferendis ipsam facere consequatur voluptatem repellendus assumenda, pariatur itaque labore obcaecati. Dignissimos eos ipsam vel repudiandae quam dolorum, tempora odit error quae, fuga illum sequi ad quas quaerat esse aspernatur, magnam illo. Minus dolor dolorum nemo.</p>
+                </div> <!-- ./description -->
+                <div class="general-info">
+                  <ul>
+                    <li>created - <span>6 dec 20</span></li>
+                    <li>technologies used - <span>html, css, javascript</span></li>
+                    <li>role - <span>frontend</span></li>
+                    <li>view online - <span><a href="#" target="_blank">demo</a></span></li>
+                  </ul>
+                </div> <!-- ./general-info -->
+              </div> <!-- ./portfolio-item-details -->
+            </div> <!-- ./portfolio-item -->
+            <!-- portfolio item end -->
+             <!-- portfolio item start -->
+             <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/portfolio/4.png" alt="portfolio item thumb">
+              </div> <!-- ./portfolio-item-thumbnail -->
+              <h3 class="portfolio-item-title">random chat website</h3>
+              <button type="button" class="btn view-project-btn">view project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eos ipsum sequi ab repudiandae perferendis ipsam facere consequatur voluptatem repellendus assumenda, pariatur itaque labore obcaecati. Dignissimos eos ipsam vel repudiandae quam dolorum, tempora odit error quae, fuga illum sequi ad quas quaerat esse aspernatur, magnam illo. Minus dolor dolorum nemo.</p>
+                </div> <!-- ./description -->
+                <div class="general-info">
+                  <ul>
+                    <li>created - <span>7 dec 20</span></li>
+                    <li>technologies used - <span>html, css, javascript</span></li>
+                    <li>role - <span>frontend</span></li>
+                    <li>view online - <span><a href="#" target="_blank">demo</a></span></li>
+                  </ul>
+                </div> <!-- ./general-info -->
+              </div> <!-- ./portfolio-item-details -->
+            </div> <!-- ./portfolio-item -->
+            <!-- portfolio item end -->
+             <!-- portfolio item start -->
+             <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/portfolio/5.png" alt="portfolio item thumb">
+              </div> <!-- ./portfolio-item-thumbnail -->
+              <h3 class="portfolio-item-title">blood bank website</h3>
+              <button type="button" class="btn view-project-btn">view project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eos ipsum sequi ab repudiandae perferendis ipsam facere consequatur voluptatem repellendus assumenda, pariatur itaque labore obcaecati. Dignissimos eos ipsam vel repudiandae quam dolorum, tempora odit error quae, fuga illum sequi ad quas quaerat esse aspernatur, magnam illo. Minus dolor dolorum nemo.</p>
+                </div> <!-- ./description -->
+                <div class="general-info">
+                  <ul>
+                    <li>created - <span>8 dec 20</span></li>
+                    <li>technologies used - <span>html, css, javascript</span></li>
+                    <li>role - <span>frontend</span></li>
+                    <li>view online - <span><a href="#" target="_blank">demo</a></span></li>
+                  </ul>
+                </div> <!-- ./general-info -->
+              </div> <!-- ./portfolio-item-details -->
+            </div> <!-- ./portfolio-item -->
+            <!-- portfolio item end -->
+             <!-- portfolio item start -->
+             <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/portfolio/6.png" alt="portfolio item thumb">
+              </div> <!-- ./portfolio-item-thumbnail -->
+              <h3 class="portfolio-item-title">yami food website</h3>
+              <button type="button" class="btn view-project-btn">view project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eos ipsum sequi ab repudiandae perferendis ipsam facere consequatur voluptatem repellendus assumenda, pariatur itaque labore obcaecati. Dignissimos eos ipsam vel repudiandae quam dolorum, tempora odit error quae, fuga illum sequi ad quas quaerat esse aspernatur, magnam illo. Minus dolor dolorum nemo.</p>
+                </div> <!-- ./description -->
+                <div class="general-info">
+                  <ul>
+                    <li>created - <span>9 dec 20</span></li>
+                    <li>technologies used - <span>html, css, javascript</span></li>
+                    <li>role - <span>frontend</span></li>
+                    <li>view online - <span><a href="#" target="_blank">demo</a></span></li>
+                  </ul>
+                </div> <!-- ./general-info -->
+              </div> <!-- ./portfolio-item-details -->
+            </div> <!-- ./portfolio-item -->
+            <!-- portfolio item end -->
+          </div> <!-- ./row -->
+        </div> <!-- ./container -->
+      </section> <!-- ./portfolio -->
+      <!-- portfolio section end -->
+
+      <!-- contact section start -->
+      <section class="contact sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>contact me</h2>
+            </div> <!-- ./section-title -->
+          </div> <!-- ./row -->
+          <div class="row">
+            <div class="contact-form">
+              <form action="" method="post">
+                <div class="row">
+                  <div class="input-group">
+                    <input type="text" placeholder="name" class="input-control" required>
+                  </div> <!-- ./input-group -->
+                  <div class="input-group">
+                    <input type="text" placeholder="email" class="input-control" required>
+                  </div> <!-- ./input-group -->
+                  <div class="input-group">
+                    <input type="text" placeholder="subject" class="input-control">
+                  </div> <!-- ./input-group -->
+                  <div class="input-group">
+                    <textarea placeholder="message" class="input-control" required></textarea>
+                  </div> <!-- ./input-group -->
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">send message</button>
+                  </div> <!-- ./submit-btn -->
+                </div> <!-- ./row -->
+              </form>
+            </div> <!-- ./contact-form -->
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>email</h3>
+                <p>me.abderrahmanebennaceur.com</p>
+              </div> <!-- ./contact-info-item -->
+              <div class="contact-info-item">
+              <h3>phone</h3>
+              <p>+213 662 370 162</p>
+            </div> <!-- ./contact-info-item -->
+            <div class="contact-info-item">
+            <h3>follow me</h3>
+            <div class="social-links">
+              <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-reddit-alien"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-github-alt"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-behance"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-dribbble"></i></a>
+            </div>
+          </div> <!-- ./contact-info-item -->
+            </div> <!-- ./contact-info -->
+          </div> <!-- ./row -->
+        </div> <!-- ./container -->
+      </section>
+      <!-- contact section end -->
+
+    </main>
+    <!-- main end -->
+    <!-- portfolio item details popup start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button class="btn pp-close" type="button"><i class="fas fa-times"></i></button>
+            <div class="pp-thumbnail">
+              <img alt="pp thumbnail">
+            </div> <!-- ./pp-thumbnail -->
+            <h3></h3>
+          </div> <!-- ./pp-header -->
+          <div class="pp-body">
+          </div> <!-- ./pp-body -->
+        </div> <!-- ./pp-content -->
+      </div> <!-- ./pp-inner -->
+    </div> <!-- ./portfolio-popup -->
+    <!-- portfolio item details popup end -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
